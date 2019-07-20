@@ -1,0 +1,584 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		26300A8A22E3E03300495BB7 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 26300A8922E3E03300495BB7 /* AppDelegate.m */; };
+		26300A8D22E3E03300495BB7 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 26300A8C22E3E03300495BB7 /* ViewController.m */; };
+		26300A9022E3E03300495BB7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 26300A8E22E3E03300495BB7 /* Main.storyboard */; };
+		26300A9222E3E03400495BB7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 26300A9122E3E03400495BB7 /* Assets.xcassets */; };
+		26300A9522E3E03400495BB7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 26300A9322E3E03400495BB7 /* LaunchScreen.storyboard */; };
+		26300A9822E3E03400495BB7 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 26300A9722E3E03400495BB7 /* main.m */; };
+		26300AA222E3E03400495BB7 /* FunimationSupportContactTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 26300AA122E3E03400495BB7 /* FunimationSupportContactTests.m */; };
+		26300AAD22E3E03400495BB7 /* FunimationSupportContactUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 26300AAC22E3E03400495BB7 /* FunimationSupportContactUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		26300A9E22E3E03400495BB7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 26300A7D22E3E03300495BB7 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 26300A8422E3E03300495BB7;
+			remoteInfo = FunimationSupportContact;
+		};
+		26300AA922E3E03400495BB7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 26300A7D22E3E03300495BB7 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 26300A8422E3E03300495BB7;
+			remoteInfo = FunimationSupportContact;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		26300A8522E3E03300495BB7 /* FunimationSupportContact.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FunimationSupportContact.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		26300A8822E3E03300495BB7 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		26300A8922E3E03300495BB7 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		26300A8B22E3E03300495BB7 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		26300A8C22E3E03300495BB7 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		26300A8F22E3E03300495BB7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		26300A9122E3E03400495BB7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		26300A9422E3E03400495BB7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		26300A9622E3E03400495BB7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		26300A9722E3E03400495BB7 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		26300A9D22E3E03400495BB7 /* FunimationSupportContactTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FunimationSupportContactTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		26300AA122E3E03400495BB7 /* FunimationSupportContactTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FunimationSupportContactTests.m; sourceTree = "<group>"; };
+		26300AA322E3E03400495BB7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		26300AA822E3E03400495BB7 /* FunimationSupportContactUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FunimationSupportContactUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		26300AAC22E3E03400495BB7 /* FunimationSupportContactUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FunimationSupportContactUITests.m; sourceTree = "<group>"; };
+		26300AAE22E3E03400495BB7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		26300A8222E3E03300495BB7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		26300A9A22E3E03400495BB7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		26300AA522E3E03400495BB7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		26300A7C22E3E03300495BB7 = {
+			isa = PBXGroup;
+			children = (
+				26300A8722E3E03300495BB7 /* FunimationSupportContact */,
+				26300AA022E3E03400495BB7 /* FunimationSupportContactTests */,
+				26300AAB22E3E03400495BB7 /* FunimationSupportContactUITests */,
+				26300A8622E3E03300495BB7 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		26300A8622E3E03300495BB7 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				26300A8522E3E03300495BB7 /* FunimationSupportContact.app */,
+				26300A9D22E3E03400495BB7 /* FunimationSupportContactTests.xctest */,
+				26300AA822E3E03400495BB7 /* FunimationSupportContactUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		26300A8722E3E03300495BB7 /* FunimationSupportContact */ = {
+			isa = PBXGroup;
+			children = (
+				26300A8822E3E03300495BB7 /* AppDelegate.h */,
+				26300A8922E3E03300495BB7 /* AppDelegate.m */,
+				26300A8B22E3E03300495BB7 /* ViewController.h */,
+				26300A8C22E3E03300495BB7 /* ViewController.m */,
+				26300A8E22E3E03300495BB7 /* Main.storyboard */,
+				26300A9122E3E03400495BB7 /* Assets.xcassets */,
+				26300A9322E3E03400495BB7 /* LaunchScreen.storyboard */,
+				26300A9622E3E03400495BB7 /* Info.plist */,
+				26300A9722E3E03400495BB7 /* main.m */,
+			);
+			path = FunimationSupportContact;
+			sourceTree = "<group>";
+		};
+		26300AA022E3E03400495BB7 /* FunimationSupportContactTests */ = {
+			isa = PBXGroup;
+			children = (
+				26300AA122E3E03400495BB7 /* FunimationSupportContactTests.m */,
+				26300AA322E3E03400495BB7 /* Info.plist */,
+			);
+			path = FunimationSupportContactTests;
+			sourceTree = "<group>";
+		};
+		26300AAB22E3E03400495BB7 /* FunimationSupportContactUITests */ = {
+			isa = PBXGroup;
+			children = (
+				26300AAC22E3E03400495BB7 /* FunimationSupportContactUITests.m */,
+				26300AAE22E3E03400495BB7 /* Info.plist */,
+			);
+			path = FunimationSupportContactUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		26300A8422E3E03300495BB7 /* FunimationSupportContact */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 26300AB122E3E03400495BB7 /* Build configuration list for PBXNativeTarget "FunimationSupportContact" */;
+			buildPhases = (
+				26300A8122E3E03300495BB7 /* Sources */,
+				26300A8222E3E03300495BB7 /* Frameworks */,
+				26300A8322E3E03300495BB7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FunimationSupportContact;
+			productName = FunimationSupportContact;
+			productReference = 26300A8522E3E03300495BB7 /* FunimationSupportContact.app */;
+			productType = "com.apple.product-type.application";
+		};
+		26300A9C22E3E03400495BB7 /* FunimationSupportContactTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 26300AB422E3E03400495BB7 /* Build configuration list for PBXNativeTarget "FunimationSupportContactTests" */;
+			buildPhases = (
+				26300A9922E3E03400495BB7 /* Sources */,
+				26300A9A22E3E03400495BB7 /* Frameworks */,
+				26300A9B22E3E03400495BB7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				26300A9F22E3E03400495BB7 /* PBXTargetDependency */,
+			);
+			name = FunimationSupportContactTests;
+			productName = FunimationSupportContactTests;
+			productReference = 26300A9D22E3E03400495BB7 /* FunimationSupportContactTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		26300AA722E3E03400495BB7 /* FunimationSupportContactUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 26300AB722E3E03400495BB7 /* Build configuration list for PBXNativeTarget "FunimationSupportContactUITests" */;
+			buildPhases = (
+				26300AA422E3E03400495BB7 /* Sources */,
+				26300AA522E3E03400495BB7 /* Frameworks */,
+				26300AA622E3E03400495BB7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				26300AAA22E3E03400495BB7 /* PBXTargetDependency */,
+			);
+			name = FunimationSupportContactUITests;
+			productName = FunimationSupportContactUITests;
+			productReference = 26300AA822E3E03400495BB7 /* FunimationSupportContactUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		26300A7D22E3E03300495BB7 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1020;
+				ORGANIZATIONNAME = "Austin Meyer";
+				TargetAttributes = {
+					26300A8422E3E03300495BB7 = {
+						CreatedOnToolsVersion = 10.2.1;
+					};
+					26300A9C22E3E03400495BB7 = {
+						CreatedOnToolsVersion = 10.2.1;
+						TestTargetID = 26300A8422E3E03300495BB7;
+					};
+					26300AA722E3E03400495BB7 = {
+						CreatedOnToolsVersion = 10.2.1;
+						TestTargetID = 26300A8422E3E03300495BB7;
+					};
+				};
+			};
+			buildConfigurationList = 26300A8022E3E03300495BB7 /* Build configuration list for PBXProject "FunimationSupportContact" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 26300A7C22E3E03300495BB7;
+			productRefGroup = 26300A8622E3E03300495BB7 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				26300A8422E3E03300495BB7 /* FunimationSupportContact */,
+				26300A9C22E3E03400495BB7 /* FunimationSupportContactTests */,
+				26300AA722E3E03400495BB7 /* FunimationSupportContactUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		26300A8322E3E03300495BB7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				26300A9522E3E03400495BB7 /* LaunchScreen.storyboard in Resources */,
+				26300A9222E3E03400495BB7 /* Assets.xcassets in Resources */,
+				26300A9022E3E03300495BB7 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		26300A9B22E3E03400495BB7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		26300AA622E3E03400495BB7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		26300A8122E3E03300495BB7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				26300A8D22E3E03300495BB7 /* ViewController.m in Sources */,
+				26300A9822E3E03400495BB7 /* main.m in Sources */,
+				26300A8A22E3E03300495BB7 /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		26300A9922E3E03400495BB7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				26300AA222E3E03400495BB7 /* FunimationSupportContactTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		26300AA422E3E03400495BB7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				26300AAD22E3E03400495BB7 /* FunimationSupportContactUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		26300A9F22E3E03400495BB7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 26300A8422E3E03300495BB7 /* FunimationSupportContact */;
+			targetProxy = 26300A9E22E3E03400495BB7 /* PBXContainerItemProxy */;
+		};
+		26300AAA22E3E03400495BB7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 26300A8422E3E03300495BB7 /* FunimationSupportContact */;
+			targetProxy = 26300AA922E3E03400495BB7 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		26300A8E22E3E03300495BB7 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				26300A8F22E3E03300495BB7 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		26300A9322E3E03400495BB7 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				26300A9422E3E03400495BB7 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		26300AAF22E3E03400495BB7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		26300AB022E3E03400495BB7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		26300AB222E3E03400495BB7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 3P59VN3UQ4;
+				INFOPLIST_FILE = FunimationSupportContact/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.Austin.Meyer.FunimationSupportContact;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		26300AB322E3E03400495BB7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 3P59VN3UQ4;
+				INFOPLIST_FILE = FunimationSupportContact/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.Austin.Meyer.FunimationSupportContact;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		26300AB522E3E03400495BB7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 3P59VN3UQ4;
+				INFOPLIST_FILE = FunimationSupportContactTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.Austin.Meyer.FunimationSupportContactTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FunimationSupportContact.app/FunimationSupportContact";
+			};
+			name = Debug;
+		};
+		26300AB622E3E03400495BB7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 3P59VN3UQ4;
+				INFOPLIST_FILE = FunimationSupportContactTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.Austin.Meyer.FunimationSupportContactTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FunimationSupportContact.app/FunimationSupportContact";
+			};
+			name = Release;
+		};
+		26300AB822E3E03400495BB7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 3P59VN3UQ4;
+				INFOPLIST_FILE = FunimationSupportContactUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.Austin.Meyer.FunimationSupportContactUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = FunimationSupportContact;
+			};
+			name = Debug;
+		};
+		26300AB922E3E03400495BB7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 3P59VN3UQ4;
+				INFOPLIST_FILE = FunimationSupportContactUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.Austin.Meyer.FunimationSupportContactUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = FunimationSupportContact;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		26300A8022E3E03300495BB7 /* Build configuration list for PBXProject "FunimationSupportContact" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				26300AAF22E3E03400495BB7 /* Debug */,
+				26300AB022E3E03400495BB7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		26300AB122E3E03400495BB7 /* Build configuration list for PBXNativeTarget "FunimationSupportContact" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				26300AB222E3E03400495BB7 /* Debug */,
+				26300AB322E3E03400495BB7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		26300AB422E3E03400495BB7 /* Build configuration list for PBXNativeTarget "FunimationSupportContactTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				26300AB522E3E03400495BB7 /* Debug */,
+				26300AB622E3E03400495BB7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		26300AB722E3E03400495BB7 /* Build configuration list for PBXNativeTarget "FunimationSupportContactUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				26300AB822E3E03400495BB7 /* Debug */,
+				26300AB922E3E03400495BB7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 26300A7D22E3E03300495BB7 /* Project object */;
+}
