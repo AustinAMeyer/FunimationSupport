@@ -1,7 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="13122.16" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14490.70" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina6_1" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13104.12"/>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14490.49"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
@@ -9,16 +13,80 @@
         <!--View Controller-->
         <scene sceneID="tne-QT-ifu">
             <objects>
-                <viewController id="BYZ-38-t0r" customClass="ViewController" customModuleProvider="" sceneMemberID="viewController">
+                <viewController id="BYZ-38-t0r" customClass="ViewController" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Funimation" translatesAutoresizingMaskIntoConstraints="NO" id="hrY-b9-3tV">
+                                <rect key="frame" x="-63" y="141" width="540" height="478"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="478" id="2nJ-NL-hwZ"/>
+                                    <constraint firstAttribute="width" constant="540" id="Dw9-Qy-D0k"/>
+                                </constraints>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Funimation Help!" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="8ba-Op-Ufe">
+                                <rect key="frame" x="0.0" y="44" width="414" height="97"/>
+                                <color key="backgroundColor" red="0.28235294117647058" green="0.1803921568627451" blue="0.5490196078431373" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="97" id="ko0-fq-3gh"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="HelveticaNeue-Bold" family="Helvetica Neue" pointSize="25"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <color key="highlightedColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <color key="shadowColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <size key="shadowOffset" width="0.0" height="1"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="1YC-j3-n0T">
+                                <rect key="frame" x="108" y="685" width="199" height="36"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="199" id="IE5-Xm-m7P"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="20"/>
+                                <state key="normal" title="Call Support"/>
+                                <connections>
+                                    <action selector="callSupport:" destination="BYZ-38-t0r" eventType="touchUpInside" id="bqX-gR-4XS"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="VTN-1h-Y7N">
+                                <rect key="frame" x="108" y="729" width="199" height="36"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="199" id="cbr-yi-wnW"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="20"/>
+                                <state key="normal" title="Email Support"/>
+                                <connections>
+                                    <action selector="emailSupport:" destination="BYZ-38-t0r" eventType="touchUpInside" id="8eg-5R-SXd"/>
+                                </connections>
+                            </button>
+                        </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="1YC-j3-n0T" firstAttribute="top" secondItem="hrY-b9-3tV" secondAttribute="bottom" constant="66" id="4f5-e6-Wor"/>
+                            <constraint firstItem="1YC-j3-n0T" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="108" id="5KX-8A-hOr"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="1YC-j3-n0T" secondAttribute="trailing" constant="107" id="9Mh-rE-Bj3"/>
+                            <constraint firstItem="VTN-1h-Y7N" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="108" id="ARG-nS-e4o"/>
+                            <constraint firstItem="hrY-b9-3tV" firstAttribute="top" secondItem="8ba-Op-Ufe" secondAttribute="bottom" id="J7z-Ze-xYh"/>
+                            <constraint firstItem="VTN-1h-Y7N" firstAttribute="top" secondItem="1YC-j3-n0T" secondAttribute="bottom" constant="8" id="SPC-4j-3zj"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="VTN-1h-Y7N" secondAttribute="trailing" constant="107" id="UBJ-cE-Y4J"/>
+                            <constraint firstItem="8ba-Op-Ufe" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="dQL-KH-xid"/>
+                            <constraint firstAttribute="trailing" secondItem="hrY-b9-3tV" secondAttribute="trailing" constant="-63" id="gLw-Pv-Ru4"/>
+                            <constraint firstItem="8ba-Op-Ufe" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" id="jsg-ZI-hI6"/>
+                            <constraint firstItem="8ba-Op-Ufe" firstAttribute="trailing" secondItem="6Tk-OE-BBY" secondAttribute="trailing" id="ugt-0q-9Ka"/>
+                            <constraint firstItem="hrY-b9-3tV" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" constant="-63" id="yN4-P2-sO4"/>
+                        </constraints>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
+                    <connections>
+                        <outlet property="funimationLabel" destination="8ba-Op-Ufe" id="AgW-Qd-6Kg"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
+            <point key="canvasLocation" x="137.68115942028987" y="137.94642857142856"/>
         </scene>
     </scenes>
+    <resources>
+        <image name="Funimation" width="225" height="225"/>
+    </resources>
 </document>

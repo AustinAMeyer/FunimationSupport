@@ -10,6 +10,9 @@
 
 @interface ViewController : UIViewController
 
+@property (weak, nonatomic) IBOutlet UILabel *funimationLabel;
+- (IBAction)callSupport:(id)sender;
+- (IBAction)emailSupport:(id)sender;
 
 @end
 
